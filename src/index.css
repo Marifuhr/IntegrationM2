@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  background-image: url("./imagenes/rick11.jpg");
+  font-family: cursive;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

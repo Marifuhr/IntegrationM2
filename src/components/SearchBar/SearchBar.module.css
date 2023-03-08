@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+input{
+    background-color: aquamarine;
+    font-family: cursive;
+    border-radius: 10px 0 0 10px;
+    border-color: darkturquoise;
+
+}
+
+button{
+    background-color: chocolate;
+    font-family: cursive;
+    border-radius: 0 10px 10px 0;
+}
+
+button:hover{
+    color: #282c34;
+    background-color: orangered;
+    cursor: pointer;
+}

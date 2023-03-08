@@ -1,0 +1,70 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 270px;
+    border-radius: 20px;
+    background-color: beige;
+    box-shadow: 0 0 20px rgb(5, 255, 172);
+    transition: all 0.5 ease;
+    text-align: start;
+    
+    
+
+}
+
+.container:hover{
+    transform: scale(1.1);
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+.button{
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: gold;
+    color: blanchedalmond;
+
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+img{
+    width: 200px;
+    border-radius: 10px 10px 0 0;
+}
+
+.imageContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.name{
+    background-color: rgb(201, 145, 226);
+    position: absolute;
+    margin-top:  0px;
+    font-size: 15px;
+}
+.propsContainer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: darkolivegreen;
+    background-color: rgb(204, 241, 69);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 0 0 20px 20px;
+    font-size: 10px;
+    
+}
+
+.propsContainer h2{
+    margin: 0px;
+}
