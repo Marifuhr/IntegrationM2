@@ -1,10 +1,22 @@
 .cartas{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 5px;
-    width: screen;
-    margin: auto;
-    height: full;
-    overflow: hidden;
-    
-}
+        height: 400px; /* o cualquier altura fija que desees */
+        overflow-y: auto;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+
+
+        .card {
+            width: 300px;
+            height: 200px;
+            background-color: white;
+            border: 1px solid black;
+            margin-bottom: 10px;
+            width: calc(33.33% - 10px); /* El "-10px" es para agregar un margen entre las cartas */
+           
+          }
+          
+      
+      

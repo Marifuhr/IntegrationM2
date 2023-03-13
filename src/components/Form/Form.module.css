@@ -1,0 +1,17 @@
+.containerUser{
+    display: flex;
+    flex-direction: center;
+    margin-top: 50px;
+}
+
+.containerPass{
+    display: flex;
+    flex-direction: center;
+    margin-top: 20px;
+}
+
+.containerBtn{
+    display: flex;
+    flex-direction: center;
+    margin-top: 20px;
+}

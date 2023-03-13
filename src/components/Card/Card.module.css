@@ -20,6 +20,7 @@
 .buttonContainer{
     display: flex;
     justify-content: flex-end;
+    margin-top: 30px;
 }
 .button{
     border-radius: 20px;
@@ -46,19 +47,23 @@ img{
     flex-direction: column;
     margin-top: 10px;
     align-items: center;
+    margin-top: 30px;
 }
 
 .name{
-    background-color: rgb(201, 145, 226);
+    background-color: rgb(224, 204, 192);
     position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkmagenta;
     margin-top:  0px;
+    height: 20px;
     font-size: 15px;
+    
 }
 .propsContainer{
     display: flex;
-    justify-content: space-evenly;
-    background-color: darkolivegreen;
-    background-color: rgb(204, 241, 69);
+    justify-content: center;
+    background-color: rgb(168, 189, 94);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-radius: 0 0 20px 20px;
     font-size: 10px;
@@ -66,5 +71,7 @@ img{
 }
 
 .propsContainer h2{
-    margin: 0px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
 }

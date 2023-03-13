@@ -1,0 +1,63 @@
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: 60px;
+    font-family: 'Creepster', cursive;
+    color: rgb(17, 16, 16);
+    
+    
+}
+
+
+.titulo:hover{
+    color: aqua;
+    transform: scale(1.1);
+
+}
+  
+
+
+
+
+
+
+.containerParrafo{
+    font-size: 40px;
+    color: #0e0808fd;
+    font-family: 'Shadows Into Light', cursive;
+    justify-content: space-between; 
+    font-weight: 100px; 
+    background-color: chartreuse;  
+
+}
+
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 160%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+    
+  }
+  
+  .container:hover .image{
+    opacity: 0.5;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+    width: 100px;
+    height: 250px;
+  }
+  
